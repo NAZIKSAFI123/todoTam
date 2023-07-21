@@ -1,0 +1,97 @@
+.form-container {
+    margin-top: 3rem;
+    width: 45rem;
+    height: 28rem;
+    margin-right: 10rem;
+    flex-shrink: 0;
+    background: #FFF;
+    border-radius: 0.79131rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media  (max-width: 400px) 
+{ 
+    .form-container{
+        
+        width: 100%;
+    }
+    
+    
+}
+
+
+.scroldiv{
+    overflow-y: auto;
+}
+.form {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+.text-input {
+    width: 25rem;
+    outline: none;
+    border: none;
+    border-radius: 0.4375rem;
+    background: #F3F3F3;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+
+}
+@media  (max-width: 400px) 
+{ 
+    .text-input{
+        
+        width: 15rem !important;
+    }
+    
+    
+}
+
+
+
+
+.save-button {
+    margin-left: 1rem;
+    width: 6rem;
+    height: 2rem;
+    flex-shrink: 0;
+    color: white;
+    border-radius: 0.3125rem;
+    background: #9333EA;
+    outline: none;
+    border: none;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #7b2cd1;
+    }
+}
+
+
+.cancel-button {
+     @extend .save-button;
+    background: #6B7280;
+    
+
+    &:hover {
+        background-color: #43454b;
+
+    }
+
+}
+
+button {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    width: 83.3rem;
+    padding: 0.6rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.3rem;
+    background: #FFF;
+
+
+
+}
+
+@media screen  and (min-width: 300px) {
+
+    header {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+    }  
+   
+    
+
+}
+  @media   (max-width: 400px){
+    .title{
+  font-size: 2rem !important;
+
+     
+    }
+  }
+
+
+
+.title {
+
+    font-family: Roboto;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+
+
+    span {
+        &:first-child {
+            color: #9333EA;
+        }
+
+        &:last-child {
+            color: #6B7280;
+        }
+    }
+}

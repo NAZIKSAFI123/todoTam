@@ -1,0 +1,49 @@
+
+.div2 {
+    button {
+      svg {
+        path {
+          fill: #6B7280; 
+          transition: fill 0.3s; 
+        }
+  
+        &:hover {
+          path {
+            fill: rgb(223, 58, 58); 
+          }
+        }
+      }
+    }
+  }
+  
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.today {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+.data p {
+    color: #6B7280;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: none;
+}

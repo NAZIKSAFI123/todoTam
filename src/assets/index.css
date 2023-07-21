@@ -1,0 +1,26 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+ 
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media   (max-width: 400px){
+ 
+  .container{
+   flex-direction: column; 
+   
+   
+  }
+}
+
+
+p,h4 {
+  margin: 0 !important;
+}
